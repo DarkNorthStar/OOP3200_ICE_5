@@ -1,3 +1,10 @@
+/*
+ * Name: Tyler Osborne
+ * Date: 2021-10-16
+ * Description:
+ *	This is the main for testing the Vector3D Template class
+ */
+
 #include <iomanip>
 #include <iostream>
 
@@ -51,19 +58,39 @@ static void CompareGameObjects(GameObject* object1, GameObject* object2)
 
 int main()
 {
-	Vector3D<float> point1(5.0f, 20.0f);
-	Vector3D<float> point2(10.0f, 100.0f);
+
+	// Tests Vector3D
+
+	// Vector2D
+	Vector2D point2D(200.0f, 300.0f);
+
+	// Vector3Ds
+	Vector3D<int> point1;
+	Vector3D<float> point2;
+	Vector3D<float> point3(point2D);
+	Vector3D<uint8_t> point4("4", "5", "6");
+
+	// input
+	std::cout << "Enter the point1's position (x, y, z): ";
+	std::cin >> point1;
+
+	std::cout << "Enter the point2's position (x, y, z): ";
+	std::cin >> point2;
+	
+
+	std::cout << "==========================================\n\n";
+	// output
+	std::cout << point1 << std::endl;
+	std::cout << point2 << std::endl;
+	std::cout << point3 << std::endl;
+	std::cout << point4 << std::endl;
 
 
-	std::cout << point1.ToString() << std::endl;
-	std::cout << point2.ToString() << std::endl;
 
 
 
 
-
-
-
+	// Tests GameObject
 
 	/*std::vector<GameObject*> gameObjects;
 
