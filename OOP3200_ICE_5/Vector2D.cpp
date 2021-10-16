@@ -1,3 +1,7 @@
+/*
+ * STARTER CODE
+ */
+
 #include "Vector2D.h"
 
 #include <iomanip>

@@ -1,3 +1,7 @@
+/*
+ * STARTER CODE
+ */
+
 #pragma once
 #ifndef __VECTOR2D__
 #define __VECTOR2D__

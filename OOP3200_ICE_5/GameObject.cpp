@@ -1,3 +1,6 @@
+/*
+ * STARTER CODE
+ */
 #include "GameObject.h"
 
 GameObject::GameObject(): m_id(0), m_position(Vector2D())
