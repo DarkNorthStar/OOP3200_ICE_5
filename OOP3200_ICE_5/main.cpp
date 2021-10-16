@@ -51,8 +51,8 @@ static void CompareGameObjects(GameObject* object1, GameObject* object2)
 
 int main()
 {
-	Vector3D point1(5.0f, 20.0f);
-	Vector3D point2(10.0f, 100.0f);
+	Vector3D<float> point1(5.0f, 20.0f);
+	Vector3D<float> point2(10.0f, 100.0f);
 
 
 	std::cout << point1.ToString() << std::endl;

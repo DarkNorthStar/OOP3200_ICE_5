@@ -143,7 +143,6 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Mathf.cpp" />
     <ClCompile Include="Vector2D.cpp" />
-    <ClCompile Include="Vector3D.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameObject.h" />
